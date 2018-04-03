@@ -1,0 +1,4 @@
+#! /bin/bash
+set -e
+set -u
+iex --erl "-smp enable +K true +P 524288" -S mix
